@@ -1,0 +1,7 @@
+MEMORY
+{
+  /* NOTE 1 K = 1 KiBi = 1024 bytes */
+  /* NRF52810 with Softdevice S112 7.0.1 */
+  FLASH : ORIGIN = 0x00019000, LENGTH = 156K
+  RAM : ORIGIN = 0x200030d0, LENGTH = 11K
+}
